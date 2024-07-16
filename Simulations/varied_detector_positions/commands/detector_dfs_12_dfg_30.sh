@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=@name@
+#SBATCH --job-name=detector_dfs_12_dfg_30
 #SBATCH --account=auburn-mins
 ##SBATCH -p medium
 ##SBATCH --account=scinet
@@ -15,7 +15,7 @@
 #SBATCH --time=168:00:00
 
 atlas=false
-line=@name@
+line=detector_dfs_12_dfg_30
 n_tasks=23
 
 echo ########
