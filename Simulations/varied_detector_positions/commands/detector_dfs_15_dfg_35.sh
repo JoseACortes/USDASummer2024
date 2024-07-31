@@ -12,11 +12,11 @@
 #SBATCH --cpus-per-task=48
 
 ##SBATH -p priority --qos=nsdl
-#SBATCH --time=168:00:00
+#SBATCH --time=3:00:00
 
-atlas=false
+atlas=true
 line=detector_dfs_15_dfg_35
-n_tasks=23
+n_tasks=96
 
 echo ########
 echo 'Running' $line
@@ -36,6 +36,7 @@ rm $outp $mctal $runtpe #$ptrac
 echo 'Starting' $line
 
 if [ $atlas = true ]; then
+    module load apptainer 
     apptainer exec --pem-path=/home/jose.cortes/.ssh/mkey-pub.pem /apps/licensed/mcnp/mcnp-encrypted.sif mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
 else
     mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks

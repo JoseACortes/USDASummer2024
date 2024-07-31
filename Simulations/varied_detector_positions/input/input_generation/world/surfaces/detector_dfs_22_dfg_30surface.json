@@ -1,6 +1,6 @@
 [
     {
-        "surface_id": 100,
+        "surface_id": 100000,
         "group": null,
         "shape": "sphere",
         "params": {
@@ -13,7 +13,7 @@
         }
     },
     {
-        "surface_id": 5,
+        "surface_id": 5000,
         "group": null,
         "shape": "box",
         "params": {
@@ -28,7 +28,7 @@
         }
     },
     {
-        "surface_id": 6,
+        "surface_id": 6000,
         "group": null,
         "shape": "box",
         "params": {
@@ -43,7 +43,7 @@
         }
     },
     {
-        "surface_id": 7,
+        "surface_id": 7000,
         "group": null,
         "shape": "box",
         "params": {
@@ -58,7 +58,7 @@
         }
     },
     {
-        "surface_id": 8,
+        "surface_id": 8000,
         "group": null,
         "shape": "box",
         "params": {
@@ -73,7 +73,7 @@
         }
     },
     {
-        "surface_id": 9,
+        "surface_id": 9000,
         "group": null,
         "shape": "box",
         "params": {
@@ -88,7 +88,7 @@
         }
     },
     {
-        "surface_id": 10,
+        "surface_id": 10000,
         "group": null,
         "shape": "box",
         "params": {
@@ -103,7 +103,7 @@
         }
     },
     {
-        "surface_id": 11,
+        "surface_id": 11000,
         "group": null,
         "shape": "box",
         "params": {
@@ -118,7 +118,7 @@
         }
     },
     {
-        "surface_id": 12,
+        "surface_id": 12000,
         "group": null,
         "shape": "box",
         "params": {
@@ -133,7 +133,7 @@
         }
     },
     {
-        "surface_id": 2,
+        "surface_id": 2000,
         "group": null,
         "shape": "box",
         "params": {
@@ -148,7 +148,7 @@
         }
     },
     {
-        "surface_id": 3,
+        "surface_id": 3000,
         "group": null,
         "shape": "box",
         "params": {
@@ -163,7 +163,7 @@
         }
     },
     {
-        "surface_id": 4,
+        "surface_id": 4000,
         "group": null,
         "shape": "box",
         "params": {
@@ -178,22 +178,22 @@
         }
     },
     {
-        "surface_id": 1,
+        "surface_id": 1000,
         "group": null,
         "shape": "box",
         "params": {
             "pos": [
                 0,
                 0,
-                -30.0
+                -55.0
             ],
-            "l": 800,
-            "w": 800,
-            "h": 3
+            "l": 200,
+            "w": 200,
+            "h": 50
         }
     },
     {
-        "surface_id": 13,
+        "surface_id": 13000,
         "group": null,
         "shape": "cylinder",
         "params": {
@@ -212,7 +212,7 @@
         }
     },
     {
-        "surface_id": 14,
+        "surface_id": 14000,
         "group": null,
         "shape": "cylinder",
         "params": {
@@ -231,14 +231,14 @@
         }
     },
     {
-        "surface_id": 15,
+        "surface_id": 15000,
         "group": null,
         "shape": "cylinder",
         "params": {
             "pos": [
-                0.0,
-                -98.41000000000001,
-                -0.0
+                68.0,
+                -74.4,
+                -1.0
             ],
             "r": 27.7,
             "height": 22.4,
@@ -250,7 +250,7 @@
         }
     },
     {
-        "surface_id": 16,
+        "surface_id": 16000,
         "group": null,
         "shape": "cylinder",
         "params": {
@@ -269,7 +269,7 @@
         }
     },
     {
-        "surface_id": 17,
+        "surface_id": 17000,
         "group": null,
         "shape": "cylinder",
         "params": {
@@ -288,14 +288,14 @@
         }
     },
     {
-        "surface_id": 18,
+        "surface_id": 18000,
         "group": null,
         "shape": "cylinder",
         "params": {
             "pos": [
-                0.0,
-                -98.41000000000001,
-                -0.0
+                68.0,
+                74.4,
+                -1.0
             ],
             "r": 27.7,
             "height": 22.4,

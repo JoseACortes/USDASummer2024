@@ -1,0 +1,651 @@
+
+Running detector_dfs_15_dfg_15
+
+
+Tue Jul 30 10:34:35 PM CDT 2024
+rm: cannot remove 'output/mctal/detector_dfs_15_dfg_15.mctal': No such file or directory
+Starting detector_dfs_15_dfg_15
+ mcnp     ver=6    , ld=02/20/18  07/30/24 22:34:35                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_15_dfg_15.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_15_dfg_15.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.18
+      run terminated when    10000000  particle histories were done.
+
+ =====>       4.74 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     4006.43   nrn =      732356626031
+ dump    2 on file output/runtpe/detector_dfs_15_dfg_15.runtpe   nps =    10000000   coll =      79738455992
+ tally data written to file output/mctal/detector_dfs_15_dfg_15.mctal
+ mcrun  is done
+
+
+Wed Jul 31 12:41:13 AM CDT 2024
+
+
+Running detector_dfs_15_dfg_25
+
+
+Wed Jul 31 12:41:13 AM CDT 2024
+rm: cannot remove 'output/mctal/detector_dfs_15_dfg_25.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_15_dfg_25.runtpe': No such file or directory
+Starting detector_dfs_15_dfg_25
+ mcnp     ver=6    , ld=02/20/18  07/31/24 00:41:13                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_15_dfg_25.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_15_dfg_25.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.15
+      run terminated when    10000000  particle histories were done.
+
+ =====>       6.22 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     3065.60   nrn =      668277137247
+ dump    2 on file output/runtpe/detector_dfs_15_dfg_25.runtpe   nps =    10000000   coll =      72621175672
+ tally data written to file output/mctal/detector_dfs_15_dfg_25.mctal
+ mcrun  is done
+
+
+Wed Jul 31 02:17:41 AM CDT 2024
+
+
+Running detector_dfs_15_dfg_35
+
+
+Wed Jul 31 02:17:41 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_15_dfg_35.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_15_dfg_35.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_15_dfg_35.runtpe': No such file or directory
+Starting detector_dfs_15_dfg_35
+ mcnp     ver=6    , ld=02/20/18  07/31/24 02:17:41                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_15_dfg_35.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_15_dfg_35.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.16
+      run terminated when    10000000  particle histories were done.
+
+ =====>       6.52 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     2923.58   nrn =      615842464640
+ dump    2 on file output/runtpe/detector_dfs_15_dfg_35.runtpe   nps =    10000000   coll =      66711032214
+ tally data written to file output/mctal/detector_dfs_15_dfg_35.mctal
+ mcrun  is done
+
+
+Wed Jul 31 03:49:44 AM CDT 2024
+
+
+Running detector_dfs_15_dfg_45
+
+
+Wed Jul 31 03:49:44 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_15_dfg_45.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_15_dfg_45.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_15_dfg_45.runtpe': No such file or directory
+Starting detector_dfs_15_dfg_45
+ mcnp     ver=6    , ld=02/20/18  07/31/24 03:49:44                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_15_dfg_45.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_15_dfg_45.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.15
+      run terminated when    10000000  particle histories were done.
+
+ =====>       6.81 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     2798.33   nrn =      573930398550
+ dump    2 on file output/runtpe/detector_dfs_15_dfg_45.runtpe   nps =    10000000   coll =      61959843183
+ tally data written to file output/mctal/detector_dfs_15_dfg_45.mctal
+ mcrun  is done
+
+
+Wed Jul 31 05:17:51 AM CDT 2024
+
+
+Running detector_dfs_15_dfg_55
+
+
+Wed Jul 31 05:17:51 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_15_dfg_55.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_15_dfg_55.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_15_dfg_55.runtpe': No such file or directory
+Starting detector_dfs_15_dfg_55
+ mcnp     ver=6    , ld=02/20/18  07/31/24 05:17:51                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_15_dfg_55.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_15_dfg_55.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.16
+      run terminated when    10000000  particle histories were done.
+
+ =====>       7.02 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     2713.17   nrn =      540605577879
+ dump    2 on file output/runtpe/detector_dfs_15_dfg_55.runtpe   nps =    10000000   coll =      58167860021
+ tally data written to file output/mctal/detector_dfs_15_dfg_55.mctal
+ mcrun  is done
+
+
+Wed Jul 31 06:43:18 AM CDT 2024
+
+
+Running detector_dfs_20_dfg_15
+
+
+Wed Jul 31 06:43:18 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_20_dfg_15.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_20_dfg_15.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_20_dfg_15.runtpe': No such file or directory
+Starting detector_dfs_20_dfg_15
+ mcnp     ver=6    , ld=02/20/18  07/31/24 06:43:18                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_20_dfg_15.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_20_dfg_15.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.16
+      run terminated when    10000000  particle histories were done.
+
+ =====>       5.21 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     3655.44   nrn =      731176855566
+ dump    2 on file output/runtpe/detector_dfs_20_dfg_15.runtpe   nps =    10000000   coll =      79610851417
+ tally data written to file output/mctal/detector_dfs_20_dfg_15.mctal
+ mcrun  is done
+
+
+Wed Jul 31 08:38:32 AM CDT 2024
+
+
+Running detector_dfs_20_dfg_25
+
+
+Wed Jul 31 08:38:32 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_20_dfg_25.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_20_dfg_25.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_20_dfg_25.runtpe': No such file or directory
+Starting detector_dfs_20_dfg_25
+ mcnp     ver=6    , ld=02/20/18  07/31/24 08:38:32                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_20_dfg_25.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_20_dfg_25.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.16
+      run terminated when    10000000  particle histories were done.
+
+ =====>       5.98 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     3192.11   nrn =      667484953031
+ dump    2 on file output/runtpe/detector_dfs_20_dfg_25.runtpe   nps =    10000000   coll =      72535371832
+ tally data written to file output/mctal/detector_dfs_20_dfg_25.mctal
+ mcrun  is done
+
+
+Wed Jul 31 10:18:59 AM CDT 2024
+
+
+Running detector_dfs_20_dfg_35
+
+
+Wed Jul 31 10:18:59 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_20_dfg_35.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_20_dfg_35.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_20_dfg_35.runtpe': No such file or directory
+Starting detector_dfs_20_dfg_35
+ mcnp     ver=6    , ld=02/20/18  07/31/24 10:18:59                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_20_dfg_35.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_20_dfg_35.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.16
+      run terminated when    10000000  particle histories were done.
+
+ =====>       6.55 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     2909.90   nrn =      615079035537
+ dump    2 on file output/runtpe/detector_dfs_20_dfg_35.runtpe   nps =    10000000   coll =      66628667553
+ tally data written to file output/mctal/detector_dfs_20_dfg_35.mctal
+ mcrun  is done
+
+
+Wed Jul 31 11:50:34 AM CDT 2024
+
+
+Running detector_dfs_20_dfg_45
+
+
+Wed Jul 31 11:50:34 AM CDT 2024
+rm: cannot remove 'output/outp/detector_dfs_20_dfg_45.outp': No such file or directory
+rm: cannot remove 'output/mctal/detector_dfs_20_dfg_45.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/detector_dfs_20_dfg_45.runtpe': No such file or directory
+Starting detector_dfs_20_dfg_45
+ mcnp     ver=6    , ld=02/20/18  07/31/24 11:50:34                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_20_dfg_45.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_20_dfg_45.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.17
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+mcnp6              0000000000CB2AC1  Unknown               Unknown  Unknown
+mcnp6              0000000000CB0BFB  Unknown               Unknown  Unknown
+mcnp6              0000000000B707A4  Unknown               Unknown  Unknown
+mcnp6              0000000000B705B6  Unknown               Unknown  Unknown
+mcnp6              0000000000B0D879  Unknown               Unknown  Unknown
+mcnp6              0000000000B1754C  Unknown               Unknown  Unknown
+libc.so.6          00000C908E042520  Unknown               Unknown  Unknown
+libc.so.6          00000C908E108C9B  __sched_yield         Unknown  Unknown
+mcnp6              0000000000BDF4A6  Unknown               Unknown  Unknown
+mcnp6              0000000000BEE379  Unknown               Unknown  Unknown
+mcnp6              0000000000BD997F  Unknown               Unknown  Unknown
+mcnp6              00000000009E3429  smmp_MP_threading         118  smmp.f90
+mcnp6              0000000000A35C4B  transport_mod_MP_         350  trnspt.f90
+mcnp6              000000000089FC3E  mcrun_                    113  mcrun.f90
+mcnp6              0000000000C3E033  Unknown               Unknown  Unknown
+mcnp6              0000000000BF5660  Unknown               Unknown  Unknown
+mcnp6              0000000000BF66E4  Unknown               Unknown  Unknown
+mcnp6              0000000000BD860F  Unknown               Unknown  Unknown
+mcnp6              000000000089FA9C  mcrun_                    112  mcrun.f90
+mcnp6              0000000000844A40  MAIN__                    329  main.f90
+mcnp6              0000000000410C9E  Unknown               Unknown  Unknown
+libc.so.6          00000C908E029D90  Unknown               Unknown  Unknown
+libc.so.6          00000C908E029E40  __libc_start_main     Unknown  Unknown
+mcnp6              0000000000410BA9  Unknown               Unknown  Unknown
+
+Wed Jul 31 12:19:22 PM CDT 2024
+

@@ -1,0 +1,217 @@
+
+Running detector_dfs_25_dfg_35
+
+
+Tue Jul 30 02:10:19 AM CDT 2024
+rm: cannot remove 'output/mctal/detector_dfs_25_dfg_35.mctal': No such file or directory
+Starting detector_dfs_25_dfg_35
+ mcnp     ver=6    , ld=02/20/18  07/30/24 02:10:19                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_25_dfg_35.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.08
+
+ ctm =     1380.06   nrn =     2029356847106
+ dump    2 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =    27598691   coll =     222166409011
+
+ ctm =     2760.30   nrn =     4069209404440
+ dump    3 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =    55337170   coll =     445474578192
+
+ ctm =     4140.66   nrn =     6099596446111
+ dump    4 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =    82938694   coll =     667742196042
+      run terminated when   100000000  particle histories were done.
+
+ =====>      27.61 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =     4994.90   nrn =     7355757058578
+ dump    5 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =   100000000   coll =     805251973556
+ tally data written to file output/mctal/detector_dfs_25_dfg_35.mctal
+ mcrun  is done
+
+
+Tue Jul 30 05:47:41 AM CDT 2024
+
+/home/jac2462@uta.edu/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Finished detector_dfs_25_dfg_35
+
+
+Running detector_dfs_25_dfg_35
+
+
+Tue Jul 30 08:27:54 PM CDT 2024
+Starting detector_dfs_25_dfg_35
+ mcnp     ver=6    , ld=02/20/18  07/30/24 20:27:54                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ additional error messages on file output/outp/detector_dfs_25_dfg_35.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.08
+      run terminated when    10000000  particle histories were done.
+
+ =====>      33.30 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =      411.97   nrn =      614451952777
+ dump    2 on file output/runtpe/detector_dfs_25_dfg_35.runtpe   nps =    10000000   coll =      66560551928
+ tally data written to file output/mctal/detector_dfs_25_dfg_35.mctal
+ mcrun  is done
+
+
+Tue Jul 30 08:45:57 PM CDT 2024
+
+/home/jac2462@uta.edu/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Finished detector_dfs_25_dfg_35
+
+
+Running working
+
+
+Tue Jul 30 08:45:57 PM CDT 2024
+Starting working
+ mcnp     ver=6    , ld=02/20/18  07/30/24 20:45:57                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ comment. using random number generator  1, initial seed = 8674536546524321    
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  comment.          60 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  no de/df for tally 6 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/working.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.08
+      run terminated when    10000000  particle histories were done.
+
+ =====>      31.97 M histories/hr    (based on wall-clock time in mcrun)
+
+
+  warning.   random number stride   152917 exceeded  1560092 times.
+  warning.  18 photons from neutron collisions were created below a local photon energy cutoff and were not followed.
+  warning.     1 of   2 tallies had bins with large relative errors.
+
+ ctm =      431.12   nrn =      651930489521
+ dump    2 on file output/runtpe/working.runtpe   nps =    10000000   coll =      70426151529
+ tally data written to file output/mctal/working.mctal
+ mcrun  is done
+
+
+Tue Jul 30 09:04:44 PM CDT 2024
+
+/home/jac2462@uta.edu/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Finished working
+

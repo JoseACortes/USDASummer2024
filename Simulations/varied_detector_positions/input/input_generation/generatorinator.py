@@ -9,16 +9,22 @@ import numpy as np
 import pandas as pd
 
 class Material:
-    def __init__(self, name, id, composition, hydration=None):
+    def __init__(self, name, id, composition, 
+                #  density, 
+                 hydration=None):
         self.name = name
         self.id = id
         self.composition = composition
         self.hydration = hydration
+        # self.density = density
     def __repr__(self):
         return f"Material({self.name}, {self.id}, {self.composition}, {self.hydration})"
     def __str__(self):
         mats = ' '.join([f"{key} {value}" for key, value in self.composition.items()])
-        return f"m{self.id} {mats}\n"
+        stack = f"m{self.id} {mats}\n"
+        if self.hydration:
+            stack += f"mt{self.id} lwtr{str(self.hydration)}\n"
+        return stack
     def __getitem__(self, key):
         return self.composition[key]
     def __setitem__(self, key, value):
@@ -514,7 +520,7 @@ class sim():
         if self.prdmp:
             stack += f"prdmp {' '.join([str(p) for p in self.prdmp])}\n"
         if self.nps:
-            stack += f"nps {self.nps}\nlost {self.nps} 20\n"
+            stack += f"nps {self.nps}\n"
         if self.seed:
             stack += f"rand seed = {self.seed}\n"
         stack+="mode n p e \nphys:n 1j 14\nphys:p\nphys:e"

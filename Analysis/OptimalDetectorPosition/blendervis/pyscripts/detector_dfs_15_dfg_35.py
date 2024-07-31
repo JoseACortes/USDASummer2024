@@ -37,28 +37,29 @@ for surface in surfaces:
             radius = np.array(surface["params"]["r"])/100,
                 )
         bpy.context.active_object.name = "surface"+ str(name)
-
+# deselect all objects
+bpy.ops.object.select_all(action='DESELECT')
 # make detectors red
 
 highlight_mat = bpy.data.materials.new('detectors')
 highlight_mat.diffuse_color = (1, 0, 0, 1)
 
-obj_det1 = bpy.data.objects["surface2"]
+obj_det1 = bpy.data.objects["surface2000"]
 obj_det1.data.materials.append(highlight_mat)
 obj_det1.active_material_index = len(obj_det1.data.materials) - 1 
 
-obj_det2 = bpy.data.objects["surface3"]
+obj_det2 = bpy.data.objects["surface3000"]
 obj_det2.data.materials.append(highlight_mat)
 obj_det2.active_material_index = len(obj_det2.data.materials) - 1 
 
-obj_det3 = bpy.data.objects["surface4"]
+obj_det3 = bpy.data.objects["surface4000"]
 obj_det3.data.materials.append(highlight_mat)
 obj_det3.active_material_index = len(obj_det3.data.materials) - 1 
 
 # move camera
 obj_camera = bpy.data.objects["Camera"]
-obj_camera.location = (3, -1.7, 0)
-obj_camera.rotation_euler = (math.radians(0), math.radians(90), math.radians(0))
+obj_camera.location = (1.5, .5, 0)
+obj_camera.rotation_euler = (math.radians(90), math.radians(0), math.radians(120))
 
 # obj_light = bpy.data.objects["Light"]
 # obj_light.location = (2.3, -1.7, -3.4)
