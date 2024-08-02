@@ -1,0 +1,6 @@
+bash commands/concentration_C_27_Si_3092.sh
+bash commands/concentration_C_187_Si_3576.sh
+bash commands/concentration_C_115_Si_3996.sh
+bash commands/concentration_C_0532_Si_4356.sh
+bash commands/concentration_C_0258_Si_4516.sh
+bash commands/concentration_C_0001_Si_4667.sh

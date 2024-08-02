@@ -70,7 +70,7 @@ spectrograms = []
 bins = None
 
 for filename in tqdm(trials['filename']):
-    bins, vals = insd.read(filename, tally=88, start_time_bin=0, end_time_bin=150, nps=1e8)
+    bins, vals = insd.read(filename, tally=88, start_time_bin=0, end_time_bin=150, nps=1e7)
     spectrograms.append(np.array(vals))
 
 spectrograms = np.array(spectrograms)
@@ -95,7 +95,7 @@ data = np.load('spectrograms.npz')
 
 spectrums = []
 for filename in tqdm(trials['filename']):
-    bins, vals = insd.read(filename, tally=58, start_time_bin=0, end_time_bin=3, nps=1e8)
+    bins, vals = insd.read(filename, tally=58, start_time_bin=0, end_time_bin=3, nps=1e7)
     
     spectrums.append(np.array(vals))
 
@@ -113,7 +113,7 @@ np.savez('spectrums.npz', x=bins, y=spectrums)
 
 gebless_spectrums = []
 for filename in tqdm(trials['filename']):
-    bins, vals = insd.read(filename, tally=18, start_time_bin=0, end_time_bin=3, nps=1e8)
+    bins, vals = insd.read(filename, tally=18, start_time_bin=0, end_time_bin=3, nps=1e7)
     
     gebless_spectrums.append(np.array(vals))
 
