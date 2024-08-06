@@ -95,10 +95,14 @@ data = np.load('spectrograms.npz')
 
 spectrums = []
 for filename in tqdm(trials['filename']):
-    bins, vals = insd.read(filename, tally=58, start_time_bin=0, end_time_bin=3, nps=1e7)
-    
+    bins, vals = insd.read(
+        filename, 
+        tally=58, 
+        start_time_bin=0, 
+        end_time_bin=3, 
+        nps=1e7
+        )
     spectrums.append(np.array(vals))
-
 spectrums = np.array(spectrums)
 
 

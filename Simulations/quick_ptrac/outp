@@ -1,0 +1,287 @@
+ 
+  comment.  Physics models disabled.
+         1-       detector_dfs_20_dfg_15
+         2-       101 0 100000 imp:n,p,e 0
+         3-       1 1 -1.05 -1000 imp:n,p,e 1
+         4-       2 7 -3.67 -2000 imp:n,p,e 1
+         5-       3 7 -3.67 -3000 imp:n,p,e 1
+         6-       4 7 -3.67 -4000 imp:n,p,e 1
+         7-       5 4 -11.35 -5000 imp:n,p,e 1
+         8-       6 5 -7.874 -6000 imp:n,p,e 1
+         9-       7 3 -1.5 -7000 imp:n,p,e 1
+        10-       8 5 -7.874 -8000 imp:n,p,e 1
+        11-       9 5 -7.874 -9000 imp:n,p,e 1
+        12-       10 3 -1.5 -10000 imp:n,p,e 1
+        13-       11 5 -7.874 -11000 imp:n,p,e 1
+        14-       12 3 -1.5 -12000 imp:n,p,e 1
+        15-       13 13 -0.92 -13000 14000 15000 imp:n,p,e 1
+        16-       16 13 -0.92 -16000 17000 18000 imp:n,p,e 1
+        17-       100 12 -0.00129 #101 #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #16 imp:n,p,e 1
+        18-       
+        19-       100000 sph 0 0 0 800
+        20-       5000 box 35.0 -30.05 -5.0 5 0 0 0 60.1 0 0 0 20
+        21-       6000 box 30.0 -27.5 -5.0 5 0 0 0 55 0 0 0 20
+        22-       7000 box 20.0 -27.5 -5.0 10 0 0 0 55 0 0 0 20
+        23-       8000 box 15.0 -27.5 -5.0 5 0 0 0 55 0 0 0 20
+        24-       9000 box -31.0 15.0 -5.0 46 0 0 0 2.5 0 0 0 20
+        25-       10000 box -31.0 17.5 -5.0 46 0 0 0 10 0 0 0 20
+        26-       11000 box -31.0 -17.5 -5.0 46 0 0 0 2.5 0 0 0 20
+        27-       12000 box -31.0 -27.5 -5.0 46 0 0 0 10 0 0 0 20
+        28-       2000 box 53.65 8.35 -4.62 12.7 0 0 0 12.7 0 0 0 15.24
+        29-       3000 box 53.65 -6.35 -4.62 12.7 0 0 0 12.7 0 0 0 15.24
+        30-       4000 box 53.65 -21.049999999999997 -4.62 12.7 0 0 0 12.7 0 0 0 15.24
+        31-       1000 box -100.0 -100.0 -65.0 200 0 0 0 200 0 0 0 50
+        32-       13000 rcc 68 -75.7 14.0 0.0 25.0 0.0 29
+        33-       14000 rcc 68 -75.7 14.0 0.0 25.0 0.0 15.24
+        34-       15000 rcc 68.0 -74.4 14.0 0.0 22.4 0.0 27.7
+        35-       16000 rcc 68 75.7 14.0 0.0 -25.0 0.0 29
+        36-       17000 rcc 68 75.7 14.0 0.0 -25.0 0.0 15.24
+        37-       18000 rcc 68.0 74.4 14.0 0.0 -22.4 0.0 27.7
+        38-       
+        39-       m1 8016 -0.4133 14000 -0.3092 6000 -0.27 1001 -0.0075
+        40-       mt1 lwtr.01
+        41-       m3 1001 -0.048535 5010 -0.034981 5011 -0.139923 8016 -0.776561
+        42-       m4 82000 1
+        43-       m5 26000 1
+        44-       m7 11023 0.5 53127 0.5
+        45-       m12 8016 -0.23 7014 -0.77
+        46-       m13 1001 -0.118371 6000 -0.881629
+        47-       sdef pos=0 0 0 erg=14
+        48-       F16:e (2 3 4)
+        49-       F18:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        50-       e18 0 1e-5 932i 8.4295
+        51-       T18 50 1e5
+        52-       FT18 phl 1 16 1 0
+        53-       F26:e (2 3 4)
+        54-       F28:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        55-       e28 0 1e-5 932i 8.4295
+        56-       T28 50 1e5
+        57-       FT28 phl 1 26 1 0 tmc 0 50
+        58-       F36:e (2 3 4)
+        59-       F38:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        60-       e38 0 1e-5 932i 8.4295
+        61-       T38 0 150i 150
+        62-       FT38 phl 1 36 1 0
+        63-       F46:e (2 3 4)
+        64-       F48:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        65-       e48 0 1e-5 932i 8.4295
+        66-       T48 0 150i 150
+        67-       FT48 phl 1 46 1 0 tmc 0 50
+        68-       F56:e (2 3 4)
+        69-       F58:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        70-       e58 0 1e-5 932i 8.4295
+        71-       T58 50 1e5
+        72-       FT58 phl 1 56 1 0 geb -0.0073 0.078 0
+        73-       F66:e (2 3 4)
+        74-       F68:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        75-       e68 0 1e-5 932i 8.4295
+        76-       T68 50 1e5
+        77-       FT68 phl 1 66 1 0 geb -0.0073 0.078 0 tmc 0 50
+        78-       F76:e (2 3 4)
+        79-       F78:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        80-       e78 0 1e-5 932i 8.4295
+        81-       T78 0 150i 150
+        82-       FT78 phl 1 76 1 0 geb -0.0073 0.078 0
+        83-       F86:e (2 3 4)
+        84-       F88:p (2 3 4)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        85-       e88 0 1e-5 932i 8.4295
+        86-       T88 0 150i 150
+        87-       FT88 phl 1 86 1 0 geb -0.0073 0.078 0 tmc 0 50
+        88-       prdmp -60 -60 -1
+        89-       nps 10
+        90-       rand seed = 1337
+        91-       mode n p e
+  comment.  photonuclear physics may be needed (phys:p).
+        92-       phys:n 1j 14
+        93-       ptrac FILE=asc WRITE = ALL
+        94-       phys:p
+        95-       phys:e
+
+ ***************************************************
+ * Random Number Generator  =                    1 *
+ * Random Number Seed       =                 1337 *
+ * Random Number Multiplier =       19073486328125 *
+ * Random Number Adder      =                    0 *
+ * Random Number Bits Used  =                   48 *
+ * Random Number Stride     =               152917 *
+ ***************************************************
+
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+
+ surface     5000.2 and surface     6000.1 are the same.     6000.1 will be deleted.
+
+ surface     5000.5 and surface     6000.5 are the same.     6000.5 will be deleted.
+
+ surface     5000.5 and surface     7000.5 are the same.     7000.5 will be deleted.
+
+ surface     5000.5 and surface     8000.5 are the same.     8000.5 will be deleted.
+
+ surface     5000.5 and surface     9000.5 are the same.     9000.5 will be deleted.
+
+ surface     5000.5 and surface    10000.5 are the same.    10000.5 will be deleted.
+
+ surface     5000.5 and surface    11000.5 are the same.    11000.5 will be deleted.
+
+ surface     5000.5 and surface    12000.5 are the same.    12000.5 will be deleted.
+
+ surface     5000.6 and surface     6000.6 are the same.     6000.6 will be deleted.
+
+ surface     5000.6 and surface     7000.6 are the same.     7000.6 will be deleted.
+
+ surface     5000.6 and surface     8000.6 are the same.     8000.6 will be deleted.
+
+ surface     5000.6 and surface     9000.6 are the same.     9000.6 will be deleted.
+
+ surface     5000.6 and surface    10000.6 are the same.    10000.6 will be deleted.
+
+ surface     5000.6 and surface    11000.6 are the same.    11000.6 will be deleted.
+
+ surface     5000.6 and surface    12000.6 are the same.    12000.6 will be deleted.
+
+ surface     6000.2 and surface     7000.1 are the same.     7000.1 will be deleted.
+
+ surface     6000.3 and surface     7000.3 are the same.     7000.3 will be deleted.
+
+ surface     6000.3 and surface     8000.3 are the same.     8000.3 will be deleted.
+
+ surface     6000.3 and surface    10000.3 are the same.    10000.3 will be deleted.
+
+ surface     6000.4 and surface     7000.4 are the same.     7000.4 will be deleted.
+
+ surface     6000.4 and surface     8000.4 are the same.     8000.4 will be deleted.
+
+ surface     6000.4 and surface    12000.4 are the same.    12000.4 will be deleted.
+
+ surface     7000.2 and surface     8000.1 are the same.     8000.1 will be deleted.
+
+ surface     8000.2 and surface     9000.1 are the same.     9000.1 will be deleted.
+
+ surface     8000.2 and surface    10000.1 are the same.    10000.1 will be deleted.
+
+ surface     8000.2 and surface    11000.1 are the same.    11000.1 will be deleted.
+
+ surface     8000.2 and surface    12000.1 are the same.    12000.1 will be deleted.
+
+ surface     9000.2 and surface    10000.2 are the same.    10000.2 will be deleted.
+
+ surface     9000.2 and surface    11000.2 are the same.    11000.2 will be deleted.
+
+ surface     9000.2 and surface    12000.2 are the same.    12000.2 will be deleted.
+
+ surface     9000.3 and surface    10000.4 are the same.    10000.4 will be deleted.
+
+ surface    11000.4 and surface    12000.3 are the same.    12000.3 will be deleted.
+
+ surface     2000.1 and surface     3000.1 are the same.     3000.1 will be deleted.
+
+ surface     2000.1 and surface     4000.1 are the same.     4000.1 will be deleted.
+
+ surface     2000.2 and surface     3000.2 are the same.     3000.2 will be deleted.
+
+ surface     2000.2 and surface     4000.2 are the same.     4000.2 will be deleted.
+
+ surface     2000.5 and surface     3000.5 are the same.     3000.5 will be deleted.
+
+ surface     2000.5 and surface     4000.5 are the same.     4000.5 will be deleted.
+
+ surface     2000.6 and surface     3000.6 are the same.     3000.6 will be deleted.
+
+ surface     2000.6 and surface     4000.6 are the same.     4000.6 will be deleted.
+
+ surface    13000.1 and surface    16000.1 are the same.    16000.1 will be deleted.
+
+ surface    13000.2 and surface    14000.2 are the same.    14000.2 will be deleted.
+
+ surface    13000.3 and surface    14000.3 are the same.    14000.3 will be deleted.
+
+ surface    14000.1 and surface    17000.1 are the same.    17000.1 will be deleted.
+
+ surface    15000.1 and surface    18000.1 are the same.    18000.1 will be deleted.
+
+ surface    16000.2 and surface    17000.2 are the same.    17000.2 will be deleted.
+
+ surface    16000.3 and surface    17000.3 are the same.    17000.3 will be deleted.
+ 
+  comment.          47 surfaces were deleted for being the same as others.
+ 
+  warning.  last time bin of tally       18 is less than time cutoff.
+ 
+  warning.  last time bin of tally       28 is less than time cutoff.
+ 
+  warning.  last time bin of tally       38 is less than time cutoff.
+ 
+  warning.  last time bin of tally       48 is less than time cutoff.
+ 
+  warning.  last time bin of tally       58 is less than time cutoff.
+ 
+  warning.  last time bin of tally       68 is less than time cutoff.
+ 
+  warning.  last time bin of tally       78 is less than time cutoff.
+ 
+  warning.  last time bin of tally       88 is less than time cutoff.
+ 
+  warning.  no de/df for tally 16 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 26 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 56 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 66 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 76 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 86 referenced on FT PHL.
+1cells                                                                                                  print table 60
+
+                               atom        gram                                            neutron    photon     electron   photon wt  
+              cell      mat   density     density     volume       mass            pieces importance importance importance generation  
+
+        1      101        0  0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00           0  0.0000E+00 0.0000E+00 0.0000E+00 -1.000E+00  
+        2        1        1s 4.22195E-02 1.05000E+00 2.00000E+06 2.10000E+06           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        3        2        7  2.94887E-02 3.67000E+00 2.45806E+03 9.02108E+03           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        4        3        7  2.94887E-02 3.67000E+00 2.45806E+03 9.02108E+03           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        5        4        7  2.94887E-02 3.67000E+00 2.45806E+03 9.02108E+03           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        6        5        4  3.29849E-02 1.13500E+01 6.01000E+03 6.82135E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        7        6        5  8.49065E-02 7.87400E+00 5.50000E+03 4.33070E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        8        7        3  1.01994E-01 1.50000E+00 1.10000E+04 1.65000E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        9        8        5  8.49065E-02 7.87400E+00 5.50000E+03 4.33070E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       10        9        5  8.49065E-02 7.87400E+00 2.30000E+03 1.81102E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       11       10        3  1.01994E-01 1.50000E+00 9.20000E+03 1.38000E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       12       11        5  8.49065E-02 7.87400E+00 2.30000E+03 1.81102E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       13       12        3  1.01994E-01 1.50000E+00 9.20000E+03 1.38000E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       14       13       13  1.05738E-01 9.20000E-01 1.01594E+04 9.34664E+03           1  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       15       16       13  1.05738E-01 9.20000E-01 1.01594E+04 9.34664E+03           1  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       16      100       12  5.38877E-05 1.29000E-03 0.00000E+00 0.00000E+00           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+
+ total                                               2.07870E+06 2.38090E+06
+
+    minimum source weight = 1.0000E+00    maximum source weight = 1.0000E+00
+ 
+  warning.  Force analog capture for pulse height tallies
+
+        25 warning messages so far.
+
+ bad trouble in subroutine mcplot of plot                             
+
+ plotcom does not exist.

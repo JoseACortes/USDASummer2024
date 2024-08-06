@@ -75,13 +75,38 @@ obj_det3 = bpy.data.objects["surface4000"]
 obj_det3.data.materials.append(highlight_mat)
 obj_det3.active_material_index = len(obj_det3.data.materials) - 1 
 
+# deselect all objects
+bpy.ops.object.select_all(action='DESELECT')
+# make ground green
+
+highlight_mat = bpy.data.materials.new('ground')
+highlight_mat.diffuse_color = (0, 1, 0, .5)
+
+obj_ground = bpy.data.objects["surface1000"]
+obj_ground.data.materials.append(highlight_mat)
+obj_ground.active_material_index = len(obj_ground.data.materials) - 1 
+
+# deselect all objects
+bpy.ops.object.select_all(action='DESELECT')
+# make sky blue
+
+highlight_mat = bpy.data.materials.new('sky')
+highlight_mat.diffuse_color = (0, 0, 1, 1)
+
+obj_ground = bpy.data.objects["surface100000"]
+obj_ground.data.materials.append(highlight_mat)
+obj_ground.active_material_index = len(obj_ground.data.materials) - 1 
+
+
+
 # move camera
 obj_camera = bpy.data.objects["Camera"]
-obj_camera.location = (1.5, .5, 0)
-obj_camera.rotation_euler = (math.radians(90), math.radians(0), math.radians(120))
+obj_camera.location = (2.41, 1.15, -0.1)
+obj_camera.rotation_euler = (math.radians(95), math.radians(0), math.radians(121))
 
 # obj_light = bpy.data.objects["Light"]
 # obj_light.location = (2.3, -1.7, -3.4)
+    
     """
     return script
 
